@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Tamagotchi;
 
-internal class PokemonDetailsResult
+public class PokemonDetailsResult
 {
     [JsonPropertyName("abilities")]
     public List<AbilityDetail> Abilities { get; set; }
