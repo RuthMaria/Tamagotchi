@@ -1,8 +1,9 @@
 ﻿using RestSharp;
 using System.Text.Json;
+using Tamagotchi.Model;
 
 
-namespace Tamagotchi
+namespace Tamagotchi.Service
 {
     public class PokemonApiService
     {

@@ -11,7 +11,7 @@ se não usar essa notação então tem que nomear a propriedade da
 classe exatamente como está sendo retornado da API
 */
 
-namespace Tamagotchi
+namespace Tamagotchi.Model
 {
     public class PokemonSpeciesResult
     {

@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace Tamagotchi
+namespace Tamagotchi.Model
 {
     public class PokemonResult
     {
