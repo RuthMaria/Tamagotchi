@@ -1,6 +1,7 @@
 <p align="center">
   <a href="#about">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
   <a href="#technologies">Tecnologias usadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;
+      <a href="#preview">Prévia</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rodar">Como rodar os testes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#license">Licença</a>
 </p>
@@ -17,26 +18,21 @@
 
 ## :books: Sobre
 
-O Screen Sound é uma aplicação que permite:
-
-- Registrar uma banda
-- Registrar álbum
-- Mostrar todas as bandas
-- Avaliar uma banda
-- Avaliar um álbum
-- Exibir detalhes de uma banda
-
-Onde foi trabalhado:
-
-- Integração com API externa
-- Gerar e consumir arquivos
-- Utilizar o LINQ para a manipulação de coleções — onde foi possível ordenar, filtrar e mapear para outros elementos.
+Este projeto é uma reprodução do Tamagotchi, o famoso "bichinho virtual" dos anos 90 e 2000, onde utiliza a API do Pokémon para trazer seus mascotes favoritos à vida e permitir interações via API e JSON. O objetivo deste projeto é consumir uma API REST de forma simplificada e usar os conceitos mais importantes do C#.
 
 <a id="technologies"></a><br>
 
 ## ⚒️ Tecnologias usadas
 
 - C#
+- API do Pokémon
+- JSON
+
+<a id="preview"></a><br>
+
+## :tv: Prévia
+
+<img src="./tela.png">
 
 <a id="rodar"></a><br>
 
@@ -45,7 +41,7 @@ Onde foi trabalhado:
 - Clonar este repositório
 
 ```
-git clone https://github.com/RuthMaria/ScreenSound-04.git
+git clone https://github.com/RuthMaria/Tamagotchi.git
 ```
 
 - Rodar o projeto no Visual Studio
